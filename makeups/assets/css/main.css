@@ -104,7 +104,6 @@ label{
     margin: 0 0 10px;
     min-height: 20px;
     font-size: inherit;
-    font-weight: none;
 }
 
 input[type="checkbox"] {
@@ -121,7 +120,8 @@ input[type="checkbox"] + label {
     display: inline-block;
     margin-left: -20px;
     padding: 0 0 0 30px;
-    background: url('https://farm6.staticflickr.com/5473/14456833654_c21aa3a2c3_o.png') no-repeat 0 0;
+	background: url(../img/checkboxes.png) no-repeat 0 0;  
+    font-weight: normal;
 }
 
 input[type="checkbox"]:checked + label {
